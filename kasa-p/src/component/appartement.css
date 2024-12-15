@@ -1,0 +1,18 @@
+.appartement {
+    background-color: #FF6060;
+    border-radius: 10px;
+    width: 500px;
+    height: 300px;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+
+}
+
+.appartement p {
+    color: white;
+    font-weight: 700;
+    width: 80px;
+    text-align: start;
+    padding-left: 20px;
+}

@@ -1,0 +1,10 @@
+.appartement__container {
+    margin: 20px 0px;
+    background-color: #F6F6F6;
+    border-radius: 30px;
+    gap: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}

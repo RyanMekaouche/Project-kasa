@@ -1,0 +1,26 @@
+
+.details__title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0px 0px 0px;
+    background-color: #FF6060;
+    font-weight: 700;
+    border-radius: 10px;
+    color: white;
+    padding: 5px 5px 5px 10px;
+}
+
+.details__title i {
+    padding-right: 5px;
+}
+
+.details__content {
+    z-index: -1;
+    position: relative;
+    bottom: 10px;
+    background-color: rgb(240, 240, 240);
+    border-radius: 10px;
+    padding: 15px 5px 5px 10px;
+    margin: 0;
+}

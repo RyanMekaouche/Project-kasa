@@ -1,0 +1,64 @@
+.appartementPage {
+    color: #FF6060;
+}
+
+.appartementPage__flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.appartementPage__information {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.appartementPage h1 {
+    font-size: 36px;
+    font-weight: 500px;
+}
+
+.appartementPage img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.appartement__notice--profil {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.appartement__notice--badge {
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    background-color: lightgray;
+}
+
+.appartementPage__location span {
+    background-color: #FF6060;
+    color: white;
+    padding: 5px 40px;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+.appartementPage__location {
+    white-space: normal;
+}
+
+.star__grey {
+    color: grey;
+}
+
+/* Partie description de la page des appartements*/
+
+
+.details__container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 50px;
+}
