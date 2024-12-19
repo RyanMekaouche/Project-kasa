@@ -1,11 +1,22 @@
 
-import react from "react";
+import react, { useEffect } from "react";
 import "./appartementPage.css"
 import AppartementDetails from "./component/appartementDetails";
+import { useLocation } from "react-router-dom";
 
 
 
 function AppartementPage() {
+    const location = useLocation();
+    console.log("location:", location);
+
+    useEffect(fetchAppartementPage, [])
+
+    function fetchAppartementPage() {
+        fetch("appartement.json").then((resp) => resp.json())
+            .then((appartements) => appartements.find(appartements.id ===location.state.AppartementId));
+    }
+
     return (
         <div className="appartementPage">
             <div>

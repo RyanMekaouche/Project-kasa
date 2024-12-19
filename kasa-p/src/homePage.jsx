@@ -7,6 +7,7 @@ import AppartementContain from "./component/appartementContainer.jsx";
 import Footer from "./component/footer.jsx";
 
 
+
 function HomePage() {
   return(
     <div>

@@ -3,10 +3,15 @@ import './appartementContainer.jsx';
 import './appartement.css';
 import { Link } from "react-router-dom";
 
-function AppartementCard() {
-    return(
-        <Link to='/appartement'>
-        <div className="appartement"><p>Titre de la location</p></div>
+function AppartementCard(props) {
+    const user = {
+        AppartementId:props.id
+    };
+    return (
+        <Link to='/appartement' state={user}>
+            <div className="appartement">
+                <img src={props.imageUrl} alt="#" />
+                <p>{props.title}</p></div>
         </Link>
     )
 }

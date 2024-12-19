@@ -1,0 +1,13 @@
+.about__banner  img{
+    width: 100%;
+    border-radius: 10px;
+    margin: 10px 0px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.about__details{
+    margin: auto;
+    width: 80%;
+}
+
